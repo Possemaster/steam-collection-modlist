@@ -23,6 +23,9 @@ h2 {
     margin-top: 40px;
     padding-bottom: 15px;
 }
+img {
+	width: 80%;
+}
 .center {
   display: block;
   margin-left: auto;
