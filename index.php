@@ -5,7 +5,7 @@
 <body>
 <div>
 <h2>Generate a list of MOD IDs from a Steam collection.</h1>
-<form action="mods.php" method="post"> 
+<form action="modlist.php" method="post"> 
 <label for="link">Provide your Steam Collection Share Link below:</label>
 <input type="text" id="link" name="link" placeholder="Steam Collection Share Link.."><br>
 <input type="submit" value="Generate Mod IDs">
