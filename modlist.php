@@ -36,8 +36,10 @@ else
 	echo '<button onclick="copyToClipboard()">Copy to Clipboard</button></br>';
 	echo '<textarea style="width:100%" id="mods" name="mods" rows=50>';
 	foreach($arr as $val) {
+		echo "&lt;ModItem&gt;&#13;&#10;";
 		echo "&lt;Name&gt;" . $val . ".sbm&lt;/Name&gt;&#13;&#10;";
 		echo "&lt;PublishedFileId&gt;" . $val . "&lt;/PublishedFileId&gt;&#13;&#10;";
+		echo "&lt;/ModItem&gt;&#13;&#10;";
 }
 echo "</textarea>";
 }
