@@ -69,3 +69,21 @@ div {
 	padding: 20px;
 	clear: both;
 }
+textarea {
+	width: 100%;
+	box-sizing: border-box;
+	font-family: Consolas, Menlo, monospace;
+}
+
+.error {
+	color: #b00020;
+}
+
+@media (max-width: 900px) {
+	div {
+		width: auto;
+	}
+	img {
+		width: 100%;
+	}
+}
